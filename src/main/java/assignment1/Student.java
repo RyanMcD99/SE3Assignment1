@@ -16,6 +16,10 @@ public class Student {
 		this.DOB = DOB;
 	}
 	
+	public String getName() {
+		return name;
+	}
+	
 	public String getUsername() {
 		username = name + Integer.toString(age);
 		return username;

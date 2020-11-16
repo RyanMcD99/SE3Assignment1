@@ -29,6 +29,7 @@ public class Student {
 		return modules;
 	}
 	
+	
 	public void addModule(String modCode) {
 		modules.add(modCode);
 	}

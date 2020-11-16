@@ -8,6 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 public class Test {
 	
+	public Test() {
+		
+	}
 	@Test
 	public void testUsername() {
 		Student student = new Student("Ryan", 21, "11/04/1999");
@@ -22,7 +25,7 @@ public class Test {
 		List<Module> modules = new ArrayList<Module>();
 		Course course = new Course("ECE", "01/09/2017", "30/05/2021",modules, regStudents);
 		LocalDate correctStartDate = new LocalDate(2017,9,01);
-		assertEquals(correctStartDate, c1.getStartDate());
+		assertEquals(correctStartDate, course.getStartDate());
 	}
 	
 	@Test

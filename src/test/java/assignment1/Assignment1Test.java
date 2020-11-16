@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 
 import java.util.ArrayList;
 import java.util.List;
-public class Test {
+public class Assignment1Test {
 	
 	@Test
 	public void testUsername() {

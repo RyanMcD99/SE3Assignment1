@@ -5,6 +5,7 @@ public class Module {
 	
 	private String name;
 	private String id;
+	//Object list of registered students and String list of courses containing module
 	private List<Student> regStudents = new ArrayList<Student>();
 	private List<String> courses = new ArrayList<String>();
 	
@@ -12,6 +13,7 @@ public class Module {
 		this.name = name;
 		this.id = id;
 		regStudents = students;
+		//Students registered in module have module added to their list
 		for( Student s : students) {
 			s.addModule(id);
 		}

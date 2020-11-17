@@ -7,6 +7,7 @@ public class Student {
 	private int age;
 	private String DOB;
 	private String username;
+	//String list of students modules and courses which they are registered with
 	private List<String> modules = new ArrayList<String>();
 	private List<String> courses = new ArrayList<String>();
 	
